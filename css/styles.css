@@ -1121,7 +1121,8 @@ progress {
   }
   .col-md-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 70%;
+	  padding-left: 410px
   }
   .col-md-7 {
     flex: 0 0 auto;
@@ -1282,7 +1283,7 @@ progress {
   }
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 33%;
   }
   .col-lg-5 {
     flex: 0 0 auto;
@@ -2324,7 +2325,7 @@ textarea.form-control-lg {
 .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
   pointer-events: none;
   filter: none;
-  opacity: 0.65;
+  opacity: 0.9;
 }
 
 .form-range {
@@ -7533,8 +7534,8 @@ textarea.form-control-lg {
 }
 
 .mx-2 {
-  margin-right: 0.5rem !important;
-  margin-left: 0.5rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
 }
 
 .mx-3 {
@@ -10867,8 +10868,8 @@ p {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -11242,15 +11243,24 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+	margin-left: 1px 
+		
+	
+  
+
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
+  width: 8rem;
+  height: 8rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
+	margin-left: 1px
+  
+	  
+
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 
 .img-brand {
@@ -11259,9 +11269,10 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/accountbackground.jpg");
   background-repeat: no-repeat;
   background-position: center;
+	background-size: 100%
 }
 section#contact .section-heading {
   color: #fff;
@@ -11287,7 +11298,7 @@ section#contact form#contactForm p.help-block {
   margin: 0;
 }
 section#contact form#contactForm .form-control:focus {
-  border-color: #ffc800;
+  border-color: #980F00;
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
