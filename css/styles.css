@@ -8266,7 +8266,8 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+    border-radius: 50% !important;
+    padding-right: 0px;
 }
 
 .rounded-pill {
@@ -11074,9 +11075,12 @@ header.masthead .masthead-heading {
 }
 
 .timeline {
-  position: relative;
-  padding: 0;
-  list-style: none;
+    position: relative;
+    list-style: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 .timeline:before {
   position: absolute;
@@ -11103,7 +11107,7 @@ header.masthead .masthead-heading {
 .timeline > li .timeline-panel {
   position: relative;
   float: right;
-  width: 100%;
+  width: 150%;
   padding: 0 20px 0 100px;
   text-align: left;
 }
@@ -11120,17 +11124,17 @@ header.masthead .masthead-heading {
   border-left-width: 0;
 }
 .timeline > li .timeline-image {
-  position: absolute;
-  z-index: 100;
-  left: 0;
-  width: 80px;
-  height: 80px;
-  margin-left: 0;
-  text-align: center;
-  color: white;
-  border: 7px solid #e9ecef;
-  border-radius: 100%;
-  background-color: #ffc800;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #ffc800;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11180,7 +11184,7 @@ header.masthead .masthead-heading {
   .timeline > li .timeline-panel {
     float: left;
     width: 41%;
-    padding: 0 20px 20px 30px;
+    padding: 0 20px 15px 25px;
     text-align: right;
   }
   .timeline > li .timeline-image {
