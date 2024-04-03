@@ -61,12 +61,12 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #202529;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
-  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-color-translucent: #C9C9C9;
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
@@ -3731,10 +3731,10 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
-  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
-  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-color: #C9C9C9;
+  --bs-navbar-hover-color: #C9C9C9;
+  --bs-navbar-disabled-color: #C9C9C9;
+  --bs-navbar-active-color: #C9C9C9;
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
@@ -3745,7 +3745,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.25rem;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+  --bs-navbar-toggler-border-color: #C9C9C9;
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
@@ -3767,6 +3767,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+
 }
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
@@ -3796,7 +3797,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color: #C9C9C9;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -3938,7 +3939,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #C9C9C9 !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -3985,7 +3986,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #C9C9C9 !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4032,7 +4033,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #C9C9C9 !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4079,7 +4080,7 @@ textarea.form-control-lg {
     width: auto !important;
     height: auto !important;
     visibility: visible !important;
-    background-color: transparent !important;
+    background-color: #C9C9C9 !important;
     border: 0 !important;
     transform: none !important;
     transition: none;
@@ -4125,7 +4126,7 @@ textarea.form-control-lg {
   width: auto !important;
   height: auto !important;
   visibility: visible !important;
-  background-color: transparent !important;
+  background-color: #C9C9C9 !important;
   border: 0 !important;
   transform: none !important;
   transition: none;
@@ -4143,11 +4144,11 @@ textarea.form-control-lg {
 .navbar-dark {
   --bs-navbar-color: #C9C9C9;
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
-  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-disabled-color: #C9C9C9;
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-toggler-border-color: #C9C9C9;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
@@ -6792,6 +6793,7 @@ textarea.form-control-lg {
   right: 0;
   left: 0;
   z-index: 1030;
+	background-color: #c9c9c9
 }
 
 .fixed-bottom {
@@ -10957,6 +10959,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
