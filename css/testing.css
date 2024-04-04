@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Adjust input width for small devices */
+@media (max-width: 576px) {
+    .form-group input {
+        width: 100%;
+    }
+}
+
+/* Optional: Add margin between form groups */
+.form-group {
+    margin-bottom: 15px; /* Adjust as needed */
+}
