@@ -3751,8 +3751,8 @@ textarea.form-control-lg {
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
-  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-color: #212529;
+  --bs-navbar-brand-hover-color: #212529;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -3810,7 +3810,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: #C9C9C9;
+  color: #212529;
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -3872,7 +3872,12 @@ textarea.form-control-lg {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
 }
-
+ 
+.navbargreycoloralltimes{
+	
+	background-color: #212529;
+	color: #212529;
+}
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
@@ -4005,7 +4010,7 @@ textarea.form-control-lg {
     transition: none;
   }
   .navbar-expand-lg .offcanvas .offcanvas-header {
-    display: none;
+    display: visible;
   }
   .navbar-expand-lg .offcanvas .offcanvas-body {
     display: flex;
@@ -4156,7 +4161,7 @@ textarea.form-control-lg {
 
 .navbar-dark {
   --bs-navbar-color: #C9C9C9;
-  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-hover-color: #212529;
   --bs-navbar-disabled-color: #C9C9C9;
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
