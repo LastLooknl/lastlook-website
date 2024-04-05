@@ -10,3 +10,9 @@
 .form-group {
     margin-bottom: 15px; /* Adjust as needed */
 }
+
+.square {
+    width: 800px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #212529;
+}
